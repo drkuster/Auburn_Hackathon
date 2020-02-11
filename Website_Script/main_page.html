@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="2B1T.js">
+        </script>
+        <meta charset="utf-8">
+        <img src="Logo.png" alt="logo" style="width:200px; height:200px; float:center;">
+        <h2>Two Birds One Tone</h2>
+        <title>Design Your Room</title>
+        <link rel="stylesheet" href="style1.css">
+            <div class="display-box">
+                <body onload="displayName()">
+                    <h1 id="welcome"></h1>
+                </body>
+            </div>
+
+            <div class="room-box" div style="visibility: visible;">
+                <input class = "btn" type = "button" name = "" value = "Add Room" onclick="DisplayFirstSpotifyLogin()" id="addRoom">
+            </div>
+
+            <div class="login-with-spotify" div style="visibility: hidden;" id="loginWithSpotify1">
+                <input class = "btn" type = "button" name = "" value = "Login With Spotify 1" onclick="OpenSpotify()">
+            </div>
+
+            <div class="login-with-spotify" div style="visibility: hidden;" id="loginWithSpotify2">
+                <input class = "btn" type = "button" name = "" value = "Login With Spotify 2" onclick="OpenSpotify2()">
+            </div>
+
+            <div class="navigate-playlist" div style="visibility: hidden;" style="width: 200px;">
+                <select id="userPlaylistsOne">
+                    <option value="1">Select Playlist:</option>
+                </select>
+                <input class = "btn" type = "button" name = "" value = "Submit" onclick="LoginWithSecondSpotify()" div style="visibility: hidden;" id="submitButton" onclick="DisplaySecondSpotifyLogin()">
+            </div>
+
+            <div class="navigate-playlist" div style="visibility: hidden;" style="width: 200px;">
+                <select id="userPlaylistsTwo">
+                    <option value="1">Select Playlist:</option>
+                    <option value="2">Dance</option>
+                    <option value="3">Run Around</option>
+                    <option value="4">Code forever</option>
+                </select>
+                <input class = "btn" type = "button" name = "" value = "Submit" onclick="OpenMergedPlaylist()" div style="visibility: hidden;" id="submitButton2">
+            </div>
+    </head> 
